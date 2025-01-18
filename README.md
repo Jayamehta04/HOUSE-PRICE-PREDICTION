@@ -1,22 +1,30 @@
-This repository contains a machine learning model for predicting house prices based on key features such as location, size, number of rooms, and other influential factors. The model uses advanced regression techniques to provide accurate price estimates, making it useful for real estate professionals, investors, and anyone interested in property valuation.
+🏠 House Price Prediction Model
 
-Features:
-Predict House Prices: Uses features like location, area, number of rooms, and more to predict house prices.
-Data Preprocessing: Handles missing data, categorical encoding, and normalization for accurate predictions.
-Machine Learning Models: Implements regression algorithms (e.g., Linear Regression, Decision Trees) for price prediction.
-Evaluation Metrics: Includes performance metrics like Mean Squared Error (MSE) to assess model accuracy.
+This repository contains a machine learning model that predicts house prices based on key property features. The model is designed to provide accurate price estimates using essential factors like the number of bedrooms, bathrooms, property size, location (zip code), and current market trends.
 
-Dataset:
-The dataset contains real estate listings with the following key features:
+🔍 Features
+Input Factors:
 
-Location: Geographic area or neighborhood.
-Size (sq ft): Total area of the house.
-Number of rooms: Bedrooms and bathrooms.
-Make sure your dataset is formatted similarly to ensure compatibility with the model.
+Beds: Number of bedrooms.
+Baths: Number of bathrooms.
+Size: Property size in square feet.
+Zip Code: Location identifier for regional price trends.
+Price: Target variable representing the house price.
 
-Model
-The project implements regression models for price prediction, including:
+Data Preprocessing:
 
-Linear Regression: A basic model for estimating the price.
-Decision Tree Regression: A tree-based model for capturing non-linear relationships.
-Feel free to experiment with other regression models or fine-tune hyperparameters to improve prediction accuracy.
+Handles missing values and cleans data for better accuracy.
+Encodes categorical zip codes into numerical values for analysis.
+
+Model Training:
+
+Utilizes machine learning algorithms like Linear Regression, Random Forest.
+
+🛠️ Technologies Used
+Programming Language: Python
+Libraries:
+Data Processing: NumPy, Pandas
+Visualization: Matplotlib, Seaborn
+Modeling: Scikit-learn
+Tools: Jupyter Notebook for experimentation and visualization.
+
