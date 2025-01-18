@@ -21,6 +21,7 @@ Model Training:
 Utilizes machine learning algorithms like Linear Regression, Random Forest.
 
 🛠️ Technologies Used
+
 Programming Language: Python
 Libraries:
 Data Processing: NumPy, Pandas
